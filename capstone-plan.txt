@@ -1,0 +1,21 @@
+Project:
+Good Songs Growing Up
+
+Summary:
+An application where you can get Thai's favorite songs growing up. Additionally, you can post your song recommendations for Thai (and others) to check out.
+
+MVPs:
+Users will land on the homepage where they will find a description about the website, a list of songs, and options for submitting recommendations.
+
+Users can get a list of Thai's favorite songs, sectioned off by when he heard it growing up (e.g. Childhood, Teenage Years, College Years, and Today).
+
+Under the recommendations section, users can list their own recomendations to be added to a list. Input fields will require a Title for the artist and song name, a YouTube URL of the song, and a short Description about why the user recommended the song. Recommendations can also be deleted.
+
+The input box will move down to slot in new recommendations above.
+
+Coding:
+AXIOS requests will be used (GET, POST, DELETE).
+
+Controller file will be used to store all the functions.
+
+A database is required for the list of songs.
