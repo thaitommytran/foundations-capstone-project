@@ -34,8 +34,18 @@ header {
 }
 
 section {
-    position: fixed;
+    position: absolute;
     left: 250px;
     top: 150px;
-    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+section > div {
+    margin: 25px 0;
+}
+
+#about-text{
+    margin: 25px 0;
 }
