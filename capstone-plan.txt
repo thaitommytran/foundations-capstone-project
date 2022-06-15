@@ -9,7 +9,7 @@ Users will land on the homepage where they will find a description about the web
 
 Users can get a list of Thai's favorite songs, sectioned off by when he heard it growing up (e.g. Childhood, Teenage Years, College Years, and Today).
 
-Under the recommendations section, users can list their own recomendations to be added to a list. Input fields will require a Title for the artist and song name, a YouTube URL of the song, and a short Description about why the user recommended the song. Recommendations can also be deleted.
+Under the recommendations section, users can suggest their own recomendations to be added to a list. Input fields will require a Title for the artist and song name, a code to embed a Spotify player of the song selected, and a short Description about why the user recommended the song. Recommendations can also be deleted.
 
 The input box will move down to slot in new recommendations above.
 
