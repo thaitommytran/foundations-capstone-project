@@ -7,7 +7,7 @@
 
 header {
   background-image: linear-gradient(to right, #02c39a, #00b4d8);
-  height: 125px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,24 +16,26 @@ header {
 }
 
 .nav-container {
-  height: 30%;
-  width: 175px;
+  height: 250px;
+  width: 200px;
+  padding: 15px;
+  font-weight: bold;
   position: fixed;
   z-index: 1;
-  top: 150px;
-  left: 25px;
+  top: 200px;
+  left: 50px;
   background-color: white;
   overflow-x: hidden;
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   border: 10px solid;
   border-image: linear-gradient(#02c39a, #00b4d8) 1;
 }
 
 section {
     position: fixed;
-    left: 200px;
-    top: 125px;
-    margin: 25px;
+    left: 250px;
+    top: 150px;
+    margin: 50px;
 }
