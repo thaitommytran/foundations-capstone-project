@@ -55,7 +55,7 @@ section > div {
     margin: 25px 0;
 }
 
-#song-card {
+.song-card {
     margin: 25px 0;
     display: flex;
 }
