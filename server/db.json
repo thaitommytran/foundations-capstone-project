@@ -17,10 +17,50 @@
   },
   {
     "id": 3,
-    "title": "That Thing You Do!",
-    "artist": "The Wonders",
-    "src": "https://open.spotify.com/embed/track/4O6ZaZrRCFfiZZKjnrXqlk?utm_source=generator",
-    "why": "This catchy beat is one that Thai rediscovered after hearing time and time again from his little brother, Minh. Make sure you listen long enough for the guitar solo; it'll have you 'wonder' if you've been living under a rock this whole time.",
-    "tag": "child"
+    "title": "Welcome to the Black Parade",
+    "artist": "My Chemical Romance",
+    "src": "https://open.spotify.com/embed/track/5wQnmLuC1W7ATsArWACrgW?utm_source=generator",
+    "why": "During the time that Thai was in high school, emo/punk rock genres dominated the music charts. Naturally, Thai took a liking to this style of music. Although the era of teen angst and rebellion is over, Thai still loves this music and regrets never having gone to Warped Tour.",
+    "tag": "teen"
+  },
+  {
+    "id": 4,
+    "title": "Lollipop",
+    "artist": "2NE1",
+    "src": "https://open.spotify.com/embed/track/2eDGx6nbrznlTmf6YMjrRi?utm_source=generator",
+    "why": "In addition to Thai's RawrXD phase, he also started to take a liking to Korean Pop, or K-Pop for short. Thai liked K-Pop before K-Pop was even cool. He used to get clowned on for it, but sometimes that's the price of being a trendsetter.",
+    "tag": "teen"
+  },
+  {
+    "id": 5,
+    "title": "Clarity",
+    "artist": "Zedd",
+    "src": "https://open.spotify.com/embed/track/60wwxj6Dd9NJlirf84wr2c?utm_source=generator",
+    "why": "Thai was introduced to electronic dance music, or EDM, during his college years. It was during college when Thai went to his first EDM concert where he saw Zedd live. Afterwards, Thai tried his hand at producing and mixing his own tracks. He was not very good at it.",
+    "tag": "college"
+  },
+  {
+    "id": 6,
+    "title": "Impatient",
+    "artist": "Jeremih",
+    "src": "https://open.spotify.com/embed/track/3WjyiSbfR74pjWXQ3IaFKJ?utm_source=generator",
+    "why": "When Thai turned 21 years old, he started hitting up the clubs on a regular basis. He loved to drink, dance, and hang out with friends. There were many club bangers during this era, but this song resonated with Thai the most.",
+    "tag": "college"
+  },
+  {
+    "id": 7,
+    "title": "The Weekend",
+    "artist": "BIBI",
+    "src": "https://open.spotify.com/embed/track/5q3LwAHTqo9d3rET2EA9Nq?utm_source=generator",
+    "why": "BIBI is a Korean artist that first started in K-Pop. She is now signed under the 88rising label and has since exploded in popularity among westerners. If you're looking for cool vibes and a summer-feelsy song, this is the one for you. You're welcome.",
+    "tag": "today"
+  },
+  {
+    "id": 8,
+    "title": "Die Hard",
+    "artist": "Kendrick Lamar",
+    "src": "https://open.spotify.com/embed/track/2g6tReTlM2Akp41g0HaeXN?utm_source=generator",
+    "why": "This song is from Kendrick's latest album, Mr. Morale & The Big Steppers, but this isn't the first time Thai has listened to Kendrick. The song 'Die Hard' is an easy reminder why Kendrick never misses. Thai starts off every morning jammin' to this song. Feel free to add it to your morning routine.",
+    "tag": "today"
   }
 ]

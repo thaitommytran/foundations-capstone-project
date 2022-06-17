@@ -11,7 +11,7 @@
     <header>
       <h1>Good Songs Growing Up</h1>
     </header>
-   
+
     <div class="nav-container">
       <a class="nav-btns" href="#">Home</a>
       <a class="nav-btns" href="#child-container">Childhood</a>
@@ -21,35 +21,33 @@
       <a class="nav-btns" href="#recs-container">Recommendations</a>
     </div>
 
-
     <section id="content">
+      <h2>About</h2>
       <div id="about-container">
-        <h2>About</h2>
-        <p id="about-text">Welcome to "Good Songs Growing Up", a collection of Thai Tran's favorite songs throughout his lifetime. Below you'll find a couple of Thai's favorite hits. Use the left sidebar to navigate to a specific time period. If you have a favorite song of your's that you want to share for Thai and others to hear, post your recommendations at the bottom of this page. Happy Listening!~</p>
+        <p id="about-text">
+          Welcome to "Good Songs Growing Up", a collection of Thai Tran's
+          favorite songs throughout his lifetime. Below you'll find a couple of
+          Thai's favorite hits. Use the left sidebar to navigate to a specific
+          time period. If you have a favorite song of your's that you want to
+          share for Thai and others to hear, post your recommendations at the
+          bottom of this page. Happy Listening!~
+        </p>
       </div>
-      <div id="child-container">
-        <h2>Childhood</h2>
-        <!-- <div class="song-card" id="display-childhood"> -->
-          <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/40riOy7x9W7GXjyGp4pjAv?utm_source=generator" width="230" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-          <div id="text-card">
-            <h3 class="song-name">"Hotel California"</h3>
-            <h4 class="artist">By: Eagles</h4>
-            <p class="why-rec">This song was a classic that Thai's father played during every roadtrip, family gathering, and karaoke session. Thai was too young to appreciate what he had heard at the time, but now that he's matured, he realizes that his father has fire music tastes.</p> -->
-          <!-- </div> -->
-        </div>
-      </div>
-      <div id="teen-container">
-        <h2>Teenage Years</h2>
-      </div>
-      <div id="college-container">
-        <h2>College Years</h2>
-      </div>
-      <div id="today-container">
-        <h2>Today</h2>
-      </div>
-      <div id="recs-container">
-        <h2>Recommendations</h2>
-      </div>
+
+      <h2>Childhood</h2>
+      <div class="song-containers" id="child-container"></div>
+
+      <h2>Teenage Years</h2>
+      <div class="song-containers" id="teen-container"></div>
+
+      <h2>College Years</h2>
+      <div class="song-containers" id="college-container"></div>
+
+      <h2>Today</h2>
+      <div class="song-containers" id="today-container"></div>
+
+      <h2>Recommendations</h2>
+      <div class="song-containers" id="recs-container"></div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
