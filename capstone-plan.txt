@@ -7,11 +7,18 @@ An application where you can get Thai's favorite songs growing up. Additionally,
 MVPs:
 Users will land on the homepage where they will find a description about the website, a list of songs, and options for submitting recommendations.
 
-Users can get a list of Thai's favorite songs, sectioned off by when he heard it growing up (e.g. Childhood, Teenage Years, College Years, and Today).
+Users will get a list of Thai's favorite songs, sectioned off by when he heard it growing up (e.g. Childhood, Teenage Years, College Years, and Today). Users will be able to navigate to different sections via a naviagtion bar.
 
-Under the recommendations section, users can suggest their own recomendations to be added to a list. Input fields will require a Title for the artist and song name, a code to embed a Spotify player of the song selected, and a short Description about why the user recommended the song. Recommendations can also be deleted.
+Users can listen to a 30-second snippet of the song by using the embedded Spotify player.
 
-The input box will move down to slot in new recommendations above.
+Under the recommendations section, users can suggest their own recomendations to be added to a list. Input fields will require:
+    1. Title - for the title of the song
+    2. Artist - for the name of the artist, 
+    3. URL - for posting an external link of the song
+    4. Name - for the name of the user
+    4. Description - for why the user recommended the song.
+    
+Recommendations can also be deleted. The input box will move down to slot in new recommendations above.
 
 Coding:
 AXIOS requests will be used (GET, POST, DELETE).

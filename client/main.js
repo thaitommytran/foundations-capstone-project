@@ -1,7 +1,7 @@
-const childDisplaySection = document.querySelector("#child-container");
-const teenDisplaySection = document.querySelector("#teen-container");
-const collegeDisplaySection = document.querySelector("#college-container");
-const todayDisplaySection = document.querySelector("#today-container");
+const childContainer = document.querySelector("#child-container");
+const teenContainer = document.querySelector("#teen-container");
+const collegeContainer = document.querySelector("#college-container");
+const todayContainer = document.querySelector("#today-container");
 
 const baseURL = "http://localhost:5100";
 
@@ -20,13 +20,13 @@ const createCard = (arr) => {
     `;
 
     if (element.tag === "child") {
-      childDisplaySection.appendChild(songCard);
+      childContainer.appendChild(songCard);
     } else if (element.tag === "teen") {
-      teenDisplaySection.appendChild(songCard);
+      teenContainer.appendChild(songCard);
     } else if (element.tag === "college") {
-      collegeDisplaySection.appendChild(songCard);
+      collegeContainer.appendChild(songCard);
     } else {
-      todayDisplaySection.appendChild(songCard);
+      todayContainer.appendChild(songCard);
     }
   });
 };
