@@ -73,3 +73,13 @@ section > div {
 .song-containers {
   display: flex;
 }
+
+#input-container {
+  display: flex;
+  gap: 25px;
+}
+
+.rec-info {
+  display: flex;
+  flex-direction: column;
+}
