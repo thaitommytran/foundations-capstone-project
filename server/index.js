@@ -6,9 +6,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const { getSongs } = require("./controller");
+const { getSongs, getRecs } = require("./controller");
 
 app.get("/api/songs", getSongs);
+app.get("/api/recs", getRecs)
 
 const port = 5100;
 

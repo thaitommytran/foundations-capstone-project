@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "title": "Hotel California",
     "artist": "Eagles",
     "src": "https://open.spotify.com/embed/track/40riOy7x9W7GXjyGp4pjAv?utm_source=generator",
@@ -8,7 +7,6 @@
     "tag": "child"
   },
   {
-    "id": 2,
     "title": "That Thing You Do!",
     "artist": "The Wonders",
     "src": "https://open.spotify.com/embed/track/4O6ZaZrRCFfiZZKjnrXqlk?utm_source=generator",
@@ -16,7 +14,6 @@
     "tag": "child"
   },
   {
-    "id": 3,
     "title": "Welcome to the Black Parade",
     "artist": "My Chemical Romance",
     "src": "https://open.spotify.com/embed/track/5wQnmLuC1W7ATsArWACrgW?utm_source=generator",
@@ -24,7 +21,6 @@
     "tag": "teen"
   },
   {
-    "id": 4,
     "title": "Lollipop",
     "artist": "2NE1",
     "src": "https://open.spotify.com/embed/track/2eDGx6nbrznlTmf6YMjrRi?utm_source=generator",
@@ -32,7 +28,6 @@
     "tag": "teen"
   },
   {
-    "id": 5,
     "title": "Clarity",
     "artist": "Zedd",
     "src": "https://open.spotify.com/embed/track/60wwxj6Dd9NJlirf84wr2c?utm_source=generator",
@@ -40,7 +35,6 @@
     "tag": "college"
   },
   {
-    "id": 6,
     "title": "Impatient",
     "artist": "Jeremih",
     "src": "https://open.spotify.com/embed/track/3WjyiSbfR74pjWXQ3IaFKJ?utm_source=generator",
@@ -48,7 +42,6 @@
     "tag": "college"
   },
   {
-    "id": 7,
     "title": "The Weekend",
     "artist": "BIBI",
     "src": "https://open.spotify.com/embed/track/5q3LwAHTqo9d3rET2EA9Nq?utm_source=generator",
@@ -56,7 +49,6 @@
     "tag": "today"
   },
   {
-    "id": 8,
     "title": "Die Hard",
     "artist": "Kendrick Lamar",
     "src": "https://open.spotify.com/embed/track/2g6tReTlM2Akp41g0HaeXN?utm_source=generator",
