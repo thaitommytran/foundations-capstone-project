@@ -3,6 +3,7 @@ const teenContainer = document.querySelector("#teen-container");
 const collegeContainer = document.querySelector("#college-container");
 const todayContainer = document.querySelector("#today-container");
 const recsContainer = document.querySelector("#recs-container");
+const recForm = document.querySelector("#rec-form");
 
 const baseURL = "http://localhost:5100";
 
@@ -72,6 +73,38 @@ const getRecs = () => {
     .catch((err) => console.log(err));
 };
 
+const postRec = (evt) => {
+  evt.preventDefault();
+
+  let title = document.querySelector("#title-input");
+  let artist = document.querySelector("#artist-input");
+  let url = document.querySelector("#url-input");
+  let name = document.querySelector("#name-input");
+  let description = document.querySelector("#description-input");
+
+  let bodyObj = {
+    title: title.value,
+    artist: artist.value,
+    URL: url.value,
+    name: name.value,
+    description: description.value
+  };
+
+  axios
+    .post(`${baseURL}/api/recs`, bodyObj)
+    .then((res) => {
+      recsContainer.innerHTML = "";
+      createRecList(res.data);
+    })
+    .catch((err) => console.log(err));
+
+  title.value = "";
+  artist.value = "";
+  url.value = "";
+  name.value = "";
+  description.value = "";
+};
+
 const deleteRec = (id) => {
   axios
     .delete(`${baseURL}/api/recs/${id}`)
@@ -81,6 +114,8 @@ const deleteRec = (id) => {
     })
     .catch((err) => console.log(err));
 };
+
+recForm.addEventListener("submit", postRec);
 
 getSongs();
 getRecs();
