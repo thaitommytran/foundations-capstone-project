@@ -36,13 +36,10 @@
 
       <h2>Childhood</h2>
       <div class="song-containers" id="child-container"></div>
-
       <h2>Teenage Years</h2>
       <div class="song-containers" id="teen-container"></div>
-
       <h2>College Years</h2>
       <div class="song-containers" id="college-container"></div>
-
       <h2>Today</h2>
       <div class="song-containers" id="today-container"></div>
 
@@ -51,6 +48,21 @@
         <p id="rec-text">
           Want Thai and others to hear some of your favorite songs growing up? Post your recommendations down below! To post your song suggestions, use the provided form down below. On the left, enter details about your song (i.e. title of the song, name of the artist, and a URL to an external link). On the right, enter user information (i.e. your name, and description about why you recommended this song). When you finish filling out the form, press the "Submit" button to complete your post.
         </p>
+
+        <div class="rec-card">
+          <div class="rec-card-info" id="song-rec-sect">
+            <h4>🎵 Song</h4>
+            <h4>👤 Artist</h4>
+            <h4>▶️ <button>Listen</button></h4>
+          </div>
+          <div class="rec-card-info" id="user-rec-sect">
+            <h4>@this-person</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero corrupti id voluptate sapiente voluptatum praesentium laudantium a nesciunt ipsum excepturi.</p>
+          </div>
+          <div id="close-rec-sect">
+            <h4>❌</h4>
+          </div>
+        </div>
       </div>
 
       <form id="rec-form">
@@ -59,11 +71,9 @@
         <div id="input-container">
           <div class="rec-info" id="song-info">
             <label for="title-input">Title</label>
-            <input type="text" id="title-input" autocomplete="off" placeholder="Enter song title here" />
-
+            <input type="text" id="title-input" autocomplete="off" placeholder="Enter song title here" required />
             <label for="artist-input">Artist</label>
-            <input type="text" id="artist-input" autocomplete="off" placeholder="Enter artist name here" />
-
+            <input type="text" id="artist-input" autocomplete="off" placeholder="Enter artist name here" required />
             <label for="url-input">URL</label>
             <input type="text" id="url-input" autocomplete="off" placeholder="Post an external link here" />
           </div>
@@ -72,10 +82,9 @@
 
           <div class="rec-info" id="user-info">
             <label for="name-input">Name</label>
-            <input type="text" id="name-input" autocomplete="off" placeholder="Enter your name here" />
-
+            <input type="text" id="name-input" autocomplete="off" placeholder="Enter your name here" required />
             <label for="description-input">Description</label>
-            <input type="text" id="description-input" autocomplete="off" placeholder="Tell us why you recommended this song here" />
+            <input type="text" id="description-input" autocomplete="off" placeholder="Tell us why you recommended this song here" required />
           </div>
         </div>
 

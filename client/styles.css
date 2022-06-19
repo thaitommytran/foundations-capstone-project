@@ -74,8 +74,29 @@ section > div {
   display: flex;
 }
 
+.rec-card {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  width: 80%;
+}
+
+.rec-card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 25px;
+}
+
+#song-rec-sect {
+  width: 200px;
+  border: 2px solid orange;
+}
+
 form {
   border: 2px solid blue;
+  width: 80%;
 }
 
 #input-container {
