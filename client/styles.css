@@ -52,9 +52,12 @@ section > div {
   margin: 25px 0;
 }
 
-#about-text, #rec-text {
-  /* margin: 25px 0; */
+#about-text {
   margin-bottom: 25px;
+}
+
+#rec-text {
+  margin: 25px 0;
 }
 
 .song-card {

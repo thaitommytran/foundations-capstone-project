@@ -74,10 +74,13 @@ const getRecs = () => {
 
 const deleteRec = (id) => {
   axios
-    .delete(`${baseURL}/api/recs`)
-    .then()
+    .delete(`${baseURL}/api/recs/${id}`)
+    .then((res) => {
+      recsContainer.innerHTML = "";
+      createRecList(res.data);
+    })
     .catch((err) => console.log(err));
 };
 
-document.addEventListener("DOMContentLoaded", getSongs);
-document.addEventListener("DOMContentLoaded", getRecs);
+getSongs();
+getRecs();

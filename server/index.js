@@ -6,10 +6,11 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const { getSongs, getRecs } = require("./controller");
+const { getSongs, getRecs, deleteRec } = require("./controller");
 
 app.get("/api/songs", getSongs);
-app.get("/api/recs", getRecs)
+app.get("/api/recs", getRecs);
+app.delete("/api/recs/:id", deleteRec);
 
 const port = 5100;
 
