@@ -13,10 +13,10 @@ Users can listen to a 30-second snippet of the song by using the embedded Spotif
 
 Under the recommendations section, users can suggest their own recomendations to be added to a list. Input fields will require:
     1. Title - for the title of the song
-    2. Artist - for the name of the artist, 
+    2. Artist - for the name of the artist
     3. URL - for posting an external link of the song
     4. Name - for the name of the user
-    4. Description - for why the user recommended the song.
+    4. Description - for why the user recommended the song
     
 Recommendations can also be deleted. The input box will move down to slot in new recommendations above.
 
