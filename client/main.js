@@ -46,6 +46,7 @@ const createRecList = (arr) => {
       <h4>👤 ${artist}</h4>
       <h4>▶️ <button id="url-btn" onclick="window.open('${URL}','_blank')">Listen</button></h4>
     </div>
+    <hr>
     <div class="rec-card-info" id="user-rec-sect">
       <h4>@${name}</h4>
       <p>${description}</p>
