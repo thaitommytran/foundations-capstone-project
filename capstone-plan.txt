@@ -22,7 +22,8 @@ Recommendations can also be deleted. The input box will move down to slot in new
 
 Coding:
 AXIOS requests will be used (GET, POST, DELETE).
-
 Controller file will be used to store all the functions.
-
 A database is required for the list of songs.
+
+Wireframe:
+https://www.figma.com/file/WS2o3m1jNwdQjzhFkGlsqy/Foundations-Capstone-Project?node-id=0%3A1
