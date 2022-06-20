@@ -5,7 +5,7 @@ const todayContainer = document.querySelector("#today-container");
 const recsContainer = document.querySelector("#recs-container");
 const recForm = document.querySelector("#rec-form");
 
-const baseURL = "http://localhost:5100";
+// const baseURL = "http://localhost:5100";
 
 const createSongCard = (arr) => {
   arr.map((elem) => {
@@ -62,14 +62,14 @@ const createRecList = (arr) => {
 
 const getSongs = () => {
   axios
-    .get(`${baseURL}/api/songs`)
+    .get(`/api/songs`)
     .then((res) => createSongCard(res.data))
     .catch((err) => console.log(err));
 };
 
 const getRecs = () => {
   axios
-    .get(`${baseURL}/api/recs`)
+    .get(`/api/recs`)
     .then((res) => createRecList(res.data))
     .catch((err) => console.log(err));
 };
@@ -92,7 +92,7 @@ const postRec = (evt) => {
   };
 
   axios
-    .post(`${baseURL}/api/recs`, bodyObj)
+    .post(`/api/recs`, bodyObj)
     .then((res) => {
       recsContainer.innerHTML = "";
       createRecList(res.data);
@@ -108,7 +108,7 @@ const postRec = (evt) => {
 
 const deleteRec = (id) => {
   axios
-    .delete(`${baseURL}/api/recs/${id}`)
+    .delete(`/api/recs/${id}`)
     .then((res) => {
       recsContainer.innerHTML = "";
       createRecList(res.data);
