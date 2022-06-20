@@ -261,9 +261,15 @@ textarea {
 #url-btn,
 #submit-btn {
   background-color: rgb(255, 255, 150);
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 7px;
   font-weight: bold;
+}
+
+#url-btn:hover,
+#submit-btn:hover {
+  background-color: rgb(235, 235, 100);
+  transition-duration: 0.2s;
 }
 
 #submit-btn {
