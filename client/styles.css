@@ -6,6 +6,12 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding-top: 250px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 header {
   position: fixed;
   padding: 50px;
@@ -252,9 +258,10 @@ textarea {
   color: lightgray;
 }
 
-#url-btn, #submit-btn {
+#url-btn,
+#submit-btn {
   background-color: rgb(255, 255, 150);
-  border: 2px solid  black;
+  border: 2px solid black;
   border-radius: 7px;
   font-weight: bold;
 }
